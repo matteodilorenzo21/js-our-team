@@ -50,11 +50,11 @@ console.table(teamMembers);
 teamMembers.forEach((member) => {
     // COL
     const col = document.createElement('div');
-    col.classList.add('col-4');
+    col.classList.add('col-2', 'p-2');
   
     // CARD
     const card = document.createElement('div');
-    card.classList.add('card');
+    card.classList.add('card', 'shadow-lg');
   
     // CARD-IMG-TOP
     const img = document.createElement('img');
@@ -63,10 +63,10 @@ teamMembers.forEach((member) => {
   
     // CARD-BODY
     const cardBody = document.createElement('div');
-    cardBody.classList.add('card-body');
+    cardBody.classList.add('card-body', 'text-center');
   
     // CARD-TITLE
-    const title = document.createElement('h2');
+    const title = document.createElement('h3');
     title.classList.add('card-title');
     title.textContent = member.name;
   

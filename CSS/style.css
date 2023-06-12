@@ -1,0 +1,23 @@
+body {
+    background: rgb(0,255,252);
+    background: linear-gradient(90deg, rgba(0,255,252,0.4767156862745098) 0%, rgba(252,191,69,0.7736344537815126) 100%);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    height: 400px;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.6s ease-out;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.row {
+    height: calc(100vh - 110px);
+}
